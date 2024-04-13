@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <title>Email Validation</title>
+      <link rel="stylesheet" href="index.css">
+   </head>
+   <body>
+      <div class="container">
+         <header>Email Validation <br></header>
+         <form action="#">
+            <div class="error-text"></div>
+            <div class="field">
+               <input onkeyup="active()" id="pswrd_1" type="password" placeholder="Enter Password">
+            </div>
+            <div class="field">
+               <input onkeyup="active_2()" id="pswrd_2" disabled type="password" placeholder="Confirm Password">
+               <div class="show">
+                  SHOW
+               </div>
+            </div>
+            <button disabled>Check</button>
+         </form>
+      </div>
+      <script src="index.js"></script>
+   </body>
+</html>
